@@ -95,10 +95,10 @@ position: relative;
 left: 170px;
 }
 #about{
-    background-color: #242937;
+    background-color: #0C090A;
 }
 #skills{
-    background-color:#242937;
+    background-color:#040720;
 }
 .aboutimg{
     width: 900px;
@@ -135,6 +135,9 @@ left: 170px;
 }    
 .cvunderline{
     text-decoration: none;
+    color: white;
+}
+.cvunderline:hover{
     color: black;
 }
 .skillstxt{
@@ -151,7 +154,7 @@ left: 170px;
 }
 .progressbar2{
     width: 28%;
-    margin: 45px 25px 25px 55px;        
+    margin: 10px 25px 25px 55px;        
 
 }
 .Frontend-img{
@@ -159,11 +162,35 @@ left: 170px;
     padding: 2px; 
     width: 50px;
 }
-.highpercent{
+.highpercent,.mediumpercent{
     width: 80%;
+    background-color: #5F9EA0;
+    color: black;
+    font-weight: bolder;
 }
 .mediumpercent{
     width: 60%;
+}
+.Languagetxt1,.Languagetxt2,.Languagetxt3,.Languagetxt4,.netbeantxt,.coroltxt{
+    margin-left: 50px;
+    font-size: 23px;
+    color: #FFA600;
+    font-weight: bold;
+}
+.Languagetxt2{
+    margin-left: 455px;
+}
+.Languagetxt3{
+    margin-left: 485px;
+}
+.Languagetxt4{
+    margin-left: 700px;
+}
+.netbeantxt{
+    margin-left: 305px; 
+}
+.coroltxt{
+    margin-left: 392px; 
 }
 @media only screen and (max-width: 767px){ 
     .home1stcolm{
@@ -249,7 +276,7 @@ left: 170px;
         height: 30px;
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
-        margin: 20px 10px 0px 10px;
+        margin: 0px 10px 0px 10px;
         }
     .progressbar2{
         width: 100%;
@@ -266,5 +293,24 @@ left: 170px;
         }
     .mediumpercent{
         width: 50%;
+        }
+    .Languagetxt1,.Languagetxt2,.Languagetxt3,.Languagetxt4,.netbeantxt,.coroltxt{
+        margin-left: 20px;
+        font-size: 12px;
+        }
+    .Languagetxt2{
+        margin-left: 70px;
+        }
+    .Languagetxt3{
+        margin-left: 95px;
+        }
+    .Languagetxt4{
+    margin-left: 110px;
+        }
+        .netbeantxt{
+            margin-left: 55px; 
+        }
+        .coroltxt{
+            margin-left: 98px; 
         }
 }
