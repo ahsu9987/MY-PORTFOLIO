@@ -7,7 +7,6 @@ html , body {
 .navbar{
     background-color: #242937;
 }
-
 .homebox{
     background: black;
 }
@@ -137,12 +136,39 @@ left: 170px;
 .cvunderline{
     text-decoration: none;
     color: black;
-    }
+}
+.skillstxt{
+    font-family:'Kaushan Script', cursive;
+    font-size: 100px;
+}
+.progressbar1,.progressbar2{
+    width: 70%;
+    height: 50px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin: 10px 35px 35px 45px;        
 
-@media only screen and (max-width: 767px){
+}
+.progressbar2{
+    width: 28%;
+    margin: 45px 25px 25px 55px;        
+
+}
+.Frontend-img{
+    height: 50px;
+    padding: 2px; 
+    width: 50px;
+}
+.highpercent{
+    width: 80%;
+}
+.mediumpercent{
+    width: 60%;
+}
+@media only screen and (max-width: 767px){ 
     .home1stcolm{
         position: relative;
-        top: 0px; 
+        top: 150px; 
         left: 50px;
         border-radius: 50px 50px 50px 50px;
         height: 150px; 
@@ -151,6 +177,10 @@ left: 170px;
         opacity: 0.6;
         /* display: none; */
     }
+    .home2ndcolumn{
+        position: relative;
+        bottom: 80px;
+    }
     .hometxt{
         font-size: 25px;
          padding: 10px; 
@@ -158,6 +188,9 @@ left: 170px;
     }
     .homeimg{
         width: 400px;
+        height: 300px;
+    }
+    .homeimg2{
         height: 300px;
     }
     .allcontactlink{
@@ -208,4 +241,30 @@ left: 170px;
          right: 10px;
          bottom: 0px;
         } 
+    .skillstxt{
+        font-size: 50px;
+        }
+    .progressbar1,.progressbar2{
+        width: 80%;
+        height: 30px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        margin: 20px 10px 0px 10px;
+        }
+    .progressbar2{
+        width: 100%;
+        height: 30px;
+        margin: 15px 15px 5px 15px;        
+        }
+    .Frontend-img{
+        height: 30px;
+        padding: 2px; 
+        width: 25px;
+        }
+    .highpercent{
+        width: 65%;
+        }
+    .mediumpercent{
+        width: 50%;
+        }
 }
