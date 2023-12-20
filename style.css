@@ -1,14 +1,14 @@
 html , body {
     margin: 0px;
     padding: 0px;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     background-color: #242937;
 }
 .navbar{
     background-color: #242937;
 }
 .homebox{
-    background: black;
+    background: #05091c;
 }
 .home1stcolm{
     position: relative;
@@ -70,8 +70,6 @@ html , body {
     transition: 1s;
    color: red;
 }
-
-
 .aboutsec{
     margin: 20px 0px 0px 50px;
 }
@@ -220,8 +218,38 @@ left: 170px;
     .homeimg2{
         height: 300px;
     }
+    .messimg,.whatsapimg,.instaimg,.linkinimg,.fbimg,.github{
+        position: relative;
+        bottom: 10px;
+        left: 280px;
+        color: white;
+        font-size: 30px;
+    }
+    .whatsapimg{
+        top: 52px;
+        left: 230px;
+    }
+    .instaimg{
+        top: 113px;
+        left:180px;
+    }
+    .linkinimg{
+        top: 173px;
+        left: 130px;
+    }
+    .fbimg{
+        top: 236px;
+        left:75px;
+    }
+    .github{
+        top: 300px;
+        right: 100px;
+        left: 20px;
+    }
     .allcontactlink{
-        display: none;
+        position: relative;
+        left: 0px;
+        bottom: 200px;
     }
     .aboutsec{
         margin-left: 0px;
