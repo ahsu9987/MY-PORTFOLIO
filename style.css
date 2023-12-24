@@ -98,6 +98,9 @@ left: 170px;
 #skills{
     background-color:#040720;
 }
+#Projects{
+    background-color:  whitesmoke;
+}
 .aboutimg{
     width: 900px;
      padding: 120px;
@@ -156,9 +159,8 @@ left: 170px;
 
 }
 .Frontend-img{
-    height: 50px;
-    padding: 2px; 
-    width: 50px;
+    padding: 1px; 
+    /* background-color: #0C090A; */
 }
 .highpercent,.mediumpercent{
     width: 80%;
@@ -189,6 +191,11 @@ left: 170px;
 }
 .coroltxt{
     margin-left: 392px; 
+}
+.img1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
 }
 @media only screen and (max-width: 767px){ 
     .home1stcolm{
