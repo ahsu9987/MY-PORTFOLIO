@@ -2,7 +2,7 @@ html , body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-color: #242937;
+    /* background-color: #242937; */
 }
 .navbar{
     background-color: #242937;
@@ -98,9 +98,6 @@ left: 170px;
 #skills{
     background-color:#040720;
 }
-#Projects{
-    background-color:  whitesmoke;
-}
 .aboutimg{
     width: 900px;
      padding: 120px;
@@ -192,10 +189,36 @@ left: 170px;
 .coroltxt{
     margin-left: 392px; 
 }
-.img1:hover{
+.cards{
+    width: 23rem;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+.cards:hover{
     transform: scale(1.1);
     transition: 1s;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+}
+.cardimges{
+    height: 320px;
+    width: 370px;
+}
+.row1{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    height:600px;
+}
+.row1::-webkit-scrollbar{
+    width: 30;
+}
+.allbtn{
+    background-color: #b0c4de;
+}
+.allbtn:hover{
+    background-color: #002e63;
+    color: white;
 }
 @media only screen and (max-width: 767px){ 
     .home1stcolm{
@@ -347,5 +370,32 @@ left: 170px;
         }
         .coroltxt{
             margin-left: 98px; 
+        }
+        .skillstxt{
+            background-color: #242937;
+        }
+        .cards{
+            width: 22rem;
+            border-top-right-radius: 100px;
+            border-top-left-radius: 100px;
+        }
+        .cardimges{
+            height: 290px;
+            width: 350px;
+        }
+        .row1{
+            overflow-x: auto;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            width: 110%;
+            height:530px;
+        }
+        .Swipetxt{
+            margin-left: 200px;
+            position: absolute;
+        }
+        #Projects{
+            background-color: #05091c;
         }
 }
