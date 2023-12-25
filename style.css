@@ -228,11 +228,21 @@ left: 170px;
     color: black;
     font-family: 'Courier';
 }
+.lastimage{
+    height: 500px;
+    width: 600px;
+}
+.formdesing{
+    border-radius: 10px;
+    width: 800px;
+    height: 700px;
+    margin-left: 100px;
+}
 @media only screen and (max-width: 767px){ 
     .home1stcolm{
         position: relative;
         top: 150px; 
-        left: 50px;
+        left: 45px;
         border-radius: 50px 50px 50px 50px;
         height: 150px; 
         width: 300px;
@@ -311,7 +321,7 @@ left: 170px;
     left: 0px;
     }
     .aboutimg{
-        width: 400px;
+        width: 380px;
          padding: 10px;
     }
     .columnrevers{
@@ -330,9 +340,6 @@ left: 170px;
          margin-right: 20px;
          padding: 2px 15px;
          margin-top: 20px;
-         margin-right: 40px;
-         right: 10px;
-         bottom: 0px;
         } 
     .skillstxt{
         font-size: 50px;
@@ -362,10 +369,10 @@ left: 170px;
         }
     .Languagetxt1,.Languagetxt2,.Languagetxt3,.Languagetxt4,.netbeantxt,.coroltxt{
         margin-left: 10px;
-        font-size: 12px;
+        font-size: 10px;
         }
     .Languagetxt2{
-        margin-left: 70px;
+        margin-left: 75px;
         }
     .Languagetxt3{
         margin-left: 100px;
@@ -404,5 +411,15 @@ left: 170px;
         }
         #Projects{
             background-color: #05091c;
+        }
+        .lastimage{
+            height: 280px;
+            width: 320px;
+        }
+        .formdesing{
+            width: 380px;
+            margin-left: 0px;
+            height: 650px;
+
         }
 }
