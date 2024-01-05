@@ -1,8 +1,8 @@
 html , body {
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
-    /* background-color: #242937; */
+    /* overflow-x: hidden; */
+    background-color: #242937;
 }
 .navbar{
     background-color: #242937;
@@ -390,20 +390,20 @@ left: 170px;
             background-color: #242937;
         }
         .cards{
-            width: 22rem;
+            width: 20rem;
             border-top-right-radius: 100px;
             border-top-left-radius: 100px;
         }
         .cardimges{
             height: 290px;
-            width: 350px;
+            width: 320px;
         }
         .row1{
             overflow-x: auto;
             display: flex;
             flex-direction: column;
-            width: 110%;
-            height:550px;
+            width: 100%;
+            height:555px;
         }
         .Swipetxt{
             margin-left: 180px;
@@ -420,6 +420,8 @@ left: 170px;
             width: 380px;
             margin-left: 0px;
             height: 650px;
-
+        }
+        .cards:hover{
+            transform: scale(1);
         }
 }
